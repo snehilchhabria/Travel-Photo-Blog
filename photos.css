@@ -1,0 +1,18 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+    transition: 0.5s;
+}
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid palevioletred;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
+img:hover{
+    box-shadow: 0 0.9em 0.9em -0.4em black;
+    transform: translateY(-5%);
+    
+}
